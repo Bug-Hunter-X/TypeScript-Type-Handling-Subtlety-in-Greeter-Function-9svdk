@@ -1,0 +1,3 @@
+# TypeScript Type Handling Subtlety
+
+This repository demonstrates a subtle bug related to type handling in TypeScript. The `greeter` function is designed to accept a string and return a string. However, if a non-string value is passed to it, the behavior might not be as expected, especially in larger applications where type checking might be relaxed.  The solution demonstrates how to improve type safety by using type guards or narrowing.
